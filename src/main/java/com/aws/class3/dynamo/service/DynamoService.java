@@ -27,6 +27,7 @@ public class DynamoService {
         item.put("id", AttributeValue.builder().s(id).build());
         item.put("nome", AttributeValue.builder().s(nome).build());
 
+
         PutItemRequest request = PutItemRequest.builder()
                 .tableName(TABLE_NAME)
                 .item(item)
