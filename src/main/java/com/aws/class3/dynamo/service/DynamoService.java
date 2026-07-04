@@ -1,4 +1,4 @@
-package com.aws.class3.dynamodb.service;
+package com.aws.class3.dynamo.service;
 
 import org.springframework.stereotype.Service;
 import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
