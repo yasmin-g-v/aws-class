@@ -18,6 +18,9 @@ public class S3Service {
     private static final String BUCKET =
             "bucket-aws-class-4-447197207642-sa-east-1-an";
 
+    private static final String BUCKE_2T =
+            "aws-turma-5-447197207642-sa-east-1-an";
+
     public S3Service(S3Client s3Client) {
         this.s3Client = s3Client;
     }
