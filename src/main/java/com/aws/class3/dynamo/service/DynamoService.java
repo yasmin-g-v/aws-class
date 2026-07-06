@@ -42,6 +42,7 @@ public class DynamoService {
 
         Map<String, AttributeValue> key = new HashMap<>();
         key.put("id", AttributeValue.builder().s(id).build());
+        //key.put("id2_sort_key", AttributeValue.builder().s(id).build());
 
         GetItemRequest request = GetItemRequest.builder()
                 .tableName(TABLE_NAME)
