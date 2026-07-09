@@ -17,7 +17,7 @@ public class SnsService {
     private final SnsClient snsClient;
 
     private static final String TOPIC_ARN =
-            "arn:aws:sns:sa-east-1:447197207642:turma-4-aws";
+            "arn:aws:sns:us-east-1:042989515685:aws-class";
 
     public SnsService(SnsClient snsClient) {
         this.snsClient = snsClient;
