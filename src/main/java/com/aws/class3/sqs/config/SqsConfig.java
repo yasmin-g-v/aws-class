@@ -12,7 +12,7 @@ public class SqsConfig {
     @Bean
     public SqsClient sqsClient() {
         return SqsClient.builder()
-                .region(Region.SA_EAST_1)
+                .region(Region.US_EAST_1)
                 .credentialsProvider(DefaultCredentialsProvider.create())
                 .build();
     }
